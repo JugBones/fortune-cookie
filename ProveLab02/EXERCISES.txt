@@ -1,0 +1,10 @@
+Exercise 1: - The name of the container was generated automatically.
+- There are no problems when removing a container with its ID.
+
+Exercise 2: - Amazon.com returned multiple IP addresses. This is probably due to the fact that big businesses like Amazon employ many servers for redundancy, high availability, and load balancing.
+
+Exercise 3: - Used the command `docker run -p 80:3000 <your_image_name> to map port 3000 from the container to port 80 on the host server.
+
+Exercise 4: - Using the day() function in Node.js, I changed the server to return the current day and time along with a lucky message.
+
+Exercise 5: - Used `/etc/localtime:/etc/localtime:ro` to mount the host's time zone settings into the container. Local time is now displayed for the time.
