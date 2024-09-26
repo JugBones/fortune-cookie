@@ -34,6 +34,5 @@ USER node
 # Expose container port 3000.
 EXPOSE 3000
 
-# Set the default command to use for `docker run`.
-# `npm start` simply starts our server.
-CMD [ "npm", "start" ]
+# Using nodemon to start the server
+CMD [ "nodemon", "-L", "-x", "npm start" ]

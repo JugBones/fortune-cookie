@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
     child_process.exec('fortune', (error, message) => {
         if (error === null) {
             // Build the full response with date and fortune message
-            res.send(`Current Date and Time: ${currentDateTime}<br><br>${message}`);
+            res.send(`Current Date and Time: ${currentDateTime}<br><br>Your fortune is:<br>${message}`);
         } else {
             res.send('Error: ' + error);
         }
